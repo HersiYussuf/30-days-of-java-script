@@ -1,2 +1,2 @@
 # 30-days-of-java-script
-## [Here](https://github.com/Asabeneh/30-Days-Of-JavaScriptHere)
+## *The link for the challenge I am currently doing is [Here](https://github.com/Asabeneh/30-Days-Of-JavaScript).*
