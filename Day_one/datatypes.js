@@ -13,7 +13,7 @@ let o
 let q
 // 7 four variables with assigned values
 let variableOne = "1";
-let varibadlepTwo = "2";
+let variableTwo = "2";
 let variableThree = "3";
 let variaThree = "4"
 // Question 8
