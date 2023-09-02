@@ -84,7 +84,20 @@ else {
 //     February has 28 days.
 //     Enter a month: FEbruary
 //     February has 28 days.
-let month = prompt("Enter the month:")
-if (month == "January" || month == "JANUARY"){
-    console.log("January has 31 days")
-    
+//let month = prompt("Enter the month:")
+//if (month == "January" || month == "JANUARY"){
+    //console.log("January has 31 days")
+let num = parseInt(prompt("Enter a number:"))
+switch(true){
+    case  num > 0:
+        console.log("The number is positive")
+        break;
+        case num == 0:
+            console.log("The number is zero:")
+            break;
+            case num < 0:
+                console.log("The number is negative")
+                break;
+                default:
+                    console.log("Invalid number")
+}
