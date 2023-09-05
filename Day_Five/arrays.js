@@ -201,4 +201,40 @@ console.log(numbers8) // => [1, 2, 3, 4, 5, 6]
 const numbers9 = [1, 2, 3, 4, 5]
 numbers9.pop()
 
-
+const numbers10 = [1, 2, 3, 4, 5]
+numbers10.pop()
+console.log(numbers10) // => [1, 2, 3, 4]
+// unshift: adds one or more items to the beginning of the array and returns the new length of the array.
+const numbers11 = [1,2,3,4,5]
+numbers11.unshift(0)
+console.log(numbers11)
+// shift : removes the first item from the array and returns that removed item.
+const numbers13 = [1,2,3,4,5]
+numbers13.shift()
+console.log(numbers13)
+// Reversing array order
+// reverse: reverse the order of the elements in an array
+const numbers14 = [1,2,3,4,5]
+let reversedNumbers = numbers14.reverse()
+console.log(reversedNumbers)
+// sorting elements in array 
+// sort: sorts the items of an array in ascending order
+const webTechzz = ['HTML','CSS','JavaScript','React','Redux','node js ','mongo db']
+webTechzz.sort()
+console.log(webTechzz)
+// Array of arrays
+// An array can store different data types in an array including an array itself. Let us create an array of arrays
+const firstNums = [1, 2, 3, 4, 5]
+const secondNums = [6, 7, 8, 9, 10]
+const backEnd = ['Node', 'Express', 'MongoDB']
+const frontEnd = ['HTML', 'CSS', 'JS', 'React']
+const fullStack = [backEnd, frontEnd]
+const arrayOfArrays = [
+    [1, 2, 3, 4, 5],
+    [6, 7, 8, 9, 10],
+    ['Node', 'Express', 'MongoDB'],
+    ['HTML', 'CSS', 'JS', 'React']
+    ['backend', 'frontend']
+]
+console.log(fullstack)
+console.log(arrayOfArrays)
